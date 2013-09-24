@@ -1,0 +1,26 @@
+// Typography
+
+h1 {}
+
+h2 {}
+
+a {
+  $text-color: #000;
+  color: $text-color;
+  text-decoration: none;
+  &:visited {
+    color: $text-color;
+  }
+
+  &:focus {
+    outline: thin dotted;
+  }
+
+  &:hover, &:active {
+    outline: 0;
+  }
+}
+
+p {}
+
+li {}
