@@ -4,6 +4,8 @@ h1 {}
 
 h2 {}
 
+// 'a' tag
+
 a {
   $text-color: #000;
   color: $text-color;
@@ -19,7 +21,14 @@ a {
   &:hover, &:active {
     outline: 0;
   }
+
 }
+
+// 'a' hover
+
+@mixin link-hover {
+    
+  }
 
 p {}
 
