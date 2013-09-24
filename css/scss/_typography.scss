@@ -1,17 +1,44 @@
 // Typography
 
+body {
+  color: #333;
+  font-family: 'Open Sans', Open Sans, sans-serif;
+}
+
 h1 {}
 
-h2 {}
+h2 {
+  font-size: 24px;
+  line-height: 46px;
+  span {
+    color: #686868;
+    font-weight: 300;
+    line-height: 30px;
+  }
+}
+
+h3 {
+  color: #111;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 4px;
+}
+
+h4 {
+  color: #686868;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
 
 // 'a' tag
 
 a {
-  $text-color: #000;
-  color: $text-color;
+  $link-color: #333;
+  color: $link-color;
   text-decoration: none;
   &:visited {
-    color: $text-color;
+    color: $link-color;
   }
 
   &:focus {
@@ -30,6 +57,10 @@ a {
     
   }
 
-p {}
+p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.6;
+}
 
 li {}

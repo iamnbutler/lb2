@@ -1,0 +1,96 @@
+//**************
+// 
+// Modules
+//
+//**************
+
+// Look Grid
+
+ul.look-grid {
+  padding: 12px 0;
+  clear: both;
+  li {
+    position: relative;
+    width: 680px;
+    margin: 12px 0;
+    height: 680px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #EAEAEA;
+    .look {
+      width: 600px;
+      height: 640px;
+      float: left;
+      background-image: url('http://placekitten.com/600/640');
+    }
+    .details {
+      border-top: 4px solid black;
+      padding: 20px;
+      width: 260px;
+      height: 640px;
+      float: left;
+      background-color: white;
+    }
+    &.first-child {
+      
+    }
+    .hypes {
+      position: absolute;
+      top: 16px;
+      left: 0;
+      padding: 10px 0;
+      width: 80px;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-size: 22px;
+      z-index: 2;
+    }
+    .hype-button {
+      position: absolute;
+      left: 0;
+      top: 16px;
+      font-size: 16px;
+      padding: 8px 0;
+      text-align: center;
+      background-color: black;
+      width: 80px;
+      text-align: center;
+      z-index: 1;
+      text-transform: uppercase;
+      color: white;
+      transition: 0.2s ease;
+    }
+    &:hover .hype-button {
+      transition: 0.2s ease;
+      top: 62px;
+      &:hover {
+        background-color: #1C1C1C;
+      }
+    }
+  }
+}
+
+// Sponsored Look
+
+.sponsored-look {
+  margin: 12px 0;
+  .look {
+    width: 75%;
+    border-radius: 6px 0 0 6px;
+    height: 380px;
+    background: #33393d;
+    float: left;
+  }
+  
+  .info {
+    width: 25%;
+    background-color: #F5F5F5;
+    border-radius: 0 6px 6px 0;
+    float: left;
+    height: 380px;
+    .inner {
+      padding: 20px;
+    }
+  }
+}

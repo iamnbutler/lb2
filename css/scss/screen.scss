@@ -1,0 +1,196 @@
+/****
+*
+*
+*     888                       888   _   888                         888   _   
+*     888      e88~-_   e88~-_  888 e~ ~  888-~88e   e88~-_   e88~-_  888 e~ ~  
+*     888     d888   i d888   i 888d8b    888  888b d888   i d888   i 888d8b    
+*     888     8888   | 8888   | 888Y88b   888  8888 8888   | 8888   | 888Y88b   
+*     888     Y888   ' Y888   ' 888 Y88b  888  888P Y888   ' Y888   ' 888 Y88b  
+*     888____  "88_-~   "88_-~  888  Y88b 888-_88"   "88_-~   "88_-~  888  Y88b
+*
+*     LOOKBOOK: Collective Fashion Consciousness
+*
+*
+****/
+
+// Reset
+@import '_reset.scss';
+
+// Typography
+@import '_typography.scss';
+
+// Style
+body {
+  width: 100%;
+  height: 100%;
+}
+
+// Nav
+
+.nav {
+  width: 220px;
+  height: 100%;
+  background-color: #33393d;  
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  $row-padding: 12px;
+  ul > li {
+    padding: $row-padding 26px;
+    &:first-child {
+      margin-top: 6px;
+    }
+    &.divider {
+      border-bottom: 1px solid #333;
+      padding-bottom: $row-padding + 6;
+      margin-bottom: $row-padding;
+    }
+    a {
+      font-size: 14px;
+      display: block;
+      color: #ADADAD;
+      &:hover {
+        color: white;
+      }
+    }
+    a.current {
+      color: white;
+    }
+  }
+  .sections a {
+    text-transform: uppercase;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    li {
+      padding: $row-padding/2 26px;
+    }
+    a {
+      font-size: 12px;
+    }
+  }
+}
+
+// Wrapper
+
+.wrapper {
+  width: 980px;
+  left: 50%;
+  margin-left: -490px;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+
+.body-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 0px 40px rgba(0,0,0,0.2);
+  background-color: white;
+  transition: left 0.2s ease;
+  &.expanded {
+    transition: left 0.2s ease;
+    left: 220px;
+  }
+}
+
+.header {
+  height: 64px;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  z-index: 9;
+  .left-side {
+    float: left;
+  }
+  .right-side {
+    float: right;
+    & > a {
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 25px 12px;
+      display: block;
+      float: left;
+      span {
+        margin-left: 4px;
+        padding: 2px 5px;
+        border-radius: 2px;
+        background-color: #33393d;
+        color: white;
+        font-weight: 300;
+      }
+    }
+    .avatar {
+      float: left;
+      width: 40px;
+      height: 40px;
+      margin: 12px 4px;
+      background-color: #EFEFEF;
+      border-radius: 4px;
+      padding: 0;
+    }
+    .nav-search {
+      padding: 0;
+      float: left;
+      width: 54px;
+      height: 64px;
+      background: url(https://dl.dropboxusercontent.com/u/68882376/img/lb2_search_64_64.png) center no-repeat;
+      -webkit-background-size: 32px;
+      background-size: 32px;
+    }
+  }
+  .logo {
+    float: left;
+    width: 64px;
+    height: 64px;
+    background-image: url(https://dl.dropboxusercontent.com/u/68882376/img/lb2_logo_64_64.png);
+  }
+  .arrow {
+    width: 16px;
+    height: 64px;
+    float: left;
+    background: url(https://dl.dropboxusercontent.com/u/68882376/img/lb2-arrow.png) no-repeat center center;
+    -webkit-background-size: 16px 32px;
+    background-size: 16px 32px;
+  }
+  .menu {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 25px 12px;
+    display: block;
+    float: left;
+    &:hover {
+      color: #737373;
+    }
+  }
+}
+
+// Stage
+
+.stage {
+  padding-top: 32px;
+  min-height: 80%;
+  padding-bottom: 60px;
+}
+
+.masthead {
+  margin-top: 64px;
+  padding: 160px 0;
+  background: #33393d url(https://dl.dropboxusercontent.com/u/68882376/img/masthead-sample.jpg) center;
+  .logotext {
+    font-size: 64px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+}
+
+@import '_module.scss';
