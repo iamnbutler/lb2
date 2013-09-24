@@ -25,54 +25,9 @@ body {
   height: 100%;
 }
 
-// Nav
+// Sidebar
+@import '_sidebar.scss';
 
-.nav {
-  width: 220px;
-  height: 100%;
-  background-color: #33393d;  
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  $row-padding: 12px;
-  ul > li {
-    padding: $row-padding 26px;
-    &:first-child {
-      margin-top: 6px;
-    }
-    &.divider {
-      border-bottom: 1px solid #333;
-      padding-bottom: $row-padding + 6;
-      margin-bottom: $row-padding;
-    }
-    a {
-      font-size: 14px;
-      display: block;
-      color: #ADADAD;
-      &:hover {
-        color: white;
-      }
-    }
-    a.current {
-      color: white;
-    }
-  }
-  .sections a {
-    text-transform: uppercase;
-  }
-  .footer {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
-    li {
-      padding: $row-padding/2 26px;
-    }
-    a {
-      font-size: 12px;
-    }
-  }
-}
 
 // Wrapper
 
