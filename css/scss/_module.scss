@@ -9,64 +9,93 @@
 ul.look-grid {
   padding: 12px 0;
   clear: both;
-  li {
+}
+li.look {
+  $look-width: 600px;
+  position: relative;
+  width: $look-width;
+  margin: 12px 0;
+  float: left;
+  border-bottom: 1px solid #EAEAEA;
+  .image {
     position: relative;
-    width: 680px;
-    margin: 12px 0;
-    height: 680px;
+    display: block;
+    width: $look-width;
+  }
+  .details {
+    border-top: 4px solid black;
+    padding: 18px 16px;
+    width: $look-width - 32 - 2; //Subtract padding and border
     float: left;
-    overflow: hidden;
-    border: 1px solid #EAEAEA;
-    .look {
-      width: 600px;
-      height: 640px;
+    background-color: white;
+    border-left: 1px solid #EAEAEA;
+    border-right: 1px solid #EAEAEA;
+    h2 {
+      line-height: 24px;
+    }
+  }
+  p.look-meta {
+    font-size: 13px;
+    color: 777;
+  }
+  .hypes {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    padding: 10px 0;
+    width: 72px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    z-index: 2;
+  }
+  .hype-button {
+    position: absolute;
+    left: 0;
+    top: 16px;
+    font-size: 16px;
+    padding: 8px 0;
+    text-align: center;
+    background-color: black;
+    width: 72px;
+    text-align: center;
+    z-index: 1;
+    text-transform: uppercase;
+    color: white;
+    transition: top 0.2s ease;
+  }
+  &:hover .hype-button {
+    transition: top 0.2s ease;
+    top: 62px;
+    &:hover {
+      background-color: #1C1C1C;
+    }
+  }
+  .look-nav {
+    border-top: 1px solid #E5E5E5;
+    background-color: #F5F5F5;
+    margin: 12px -16px -18px -16px;
+    width: $look-width;
+    li {
       float: left;
-      background-image: url('http://placekitten.com/600/640');
-    }
-    .details {
-      border-top: 4px solid black;
-      padding: 20px;
-      width: 260px;
-      height: 640px;
-      float: left;
-      background-color: white;
-    }
-    &.first-child {
-      
-    }
-    .hypes {
-      position: absolute;
-      top: 16px;
-      left: 0;
-      padding: 10px 0;
-      width: 80px;
-      text-align: center;
-      background-color: black;
-      color: white;
-      font-size: 22px;
-      z-index: 2;
-    }
-    .hype-button {
-      position: absolute;
-      left: 0;
-      top: 16px;
-      font-size: 16px;
-      padding: 8px 0;
-      text-align: center;
-      background-color: black;
-      width: 80px;
-      text-align: center;
-      z-index: 1;
-      text-transform: uppercase;
-      color: white;
-      transition: 0.2s ease;
-    }
-    &:hover .hype-button {
-      transition: 0.2s ease;
-      top: 62px;
-      &:hover {
-        background-color: #1C1C1C;
+      padding: 12px 16px;
+      font-size: 13px;
+      color: #777;
+      border-right: 1px solid #E5E5E5;
+      a {
+        color: #777;
+        &:hover {
+          color: #333;
+        }
       }
+    }
+    li.social {
+      float: right;
+      padding: 12px 16px;
+    }
+    li.first {
+      border-left: 1px solid #E5E5E5;
     }
   }
 }

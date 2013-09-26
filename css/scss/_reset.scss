@@ -1,3 +1,10 @@
 // Based on Eric Meyer's reset 2.0 Global reset rules. For more specific resets, use the reset mixins provided below
 // http://compass-style.org/reference/compass/reset/utilities/#mixin-global-reset
-@import "compass/reset"
+@import "compass/reset";
+
+.cf {
+	// Clearfix - proper height for floated elements
+	content:"";
+    display:table;
+    clear:both;
+}

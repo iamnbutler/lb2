@@ -1,0 +1,20 @@
+@mixin wrapper($wrapper-width) {
+  width: $wrapper-width;
+  margin-left: -($wrapper-width/2);
+  left: 50%;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+
+// Main Wrapper (980px)
+
+.wrapper.w980 {
+  @include wrapper(980px);
+}
+
+// Narrow Wrapper
+
+.wrapper.w600 {
+  @include wrapper(600px);
+}

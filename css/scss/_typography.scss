@@ -1,3 +1,7 @@
+// Colors
+
+$cold-grey: #33393d;
+
 // Typography
 
 body {
@@ -5,9 +9,14 @@ body {
   font-family: 'Open Sans', Open Sans, sans-serif;
 }
 
-h1 {}
+h1 {
+  color: #111;
+  font-size: 32px;
+  line-height: 72px;
+}
 
 h2 {
+  color: #111;
   font-size: 24px;
   line-height: 46px;
   span {
@@ -19,19 +28,11 @@ h2 {
 
 h3 {
   color: #111;
-  font-size: 20px;
-  line-height: 1.6;
-  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 38px;
 }
 
-h4 {
-  color: #686868;
-  font-size: 12px;
-  line-height: 1.6;
-  margin-bottom: 6px;
-}
-
-// 'a' tag
+// Links
 
 a {
   $link-color: #333;
@@ -51,16 +52,70 @@ a {
 
 }
 
+a.block {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #EFEFEF;
+  transition: background-color 0.4s;
+  color: #555;
+  &:hover {
+    background-color: #E0E0E0;
+    transition: background-color 0.4s;
+  }
+  &.active {
+    background-color: #00CCFF;
+    color: white;
+    &:hover {
+      background-color: #00BBEA;
+      transition: background-color 0.4s;
+    }
+  }
+  &.inactive {
+    color: #999;
+    cursor: not-allowed;
+    &:hover {
+      background-color: #EFEFEF;
+    }
+  }
+}
+
 // 'a' hover
 
 @mixin link-hover {
     
   }
 
-p {
-  color: #777;
-  font-size: 14px;
-  line-height: 1.6;
+b, .bold {
+  font-weight: bold;
 }
 
-li {}
+i {
+  font-style: italic;
+}
+
+p {
+  color: #666;
+  font-size: 14px;
+  line-height: 23px;
+  max-width: 560px;
+  widows: 3; // This line keeps single words from appearing on a new line
+  orphans: 3;
+  padding: 4px 0; // Leave space between paragraphs
+  b {
+    color: #333;
+  }
+}
+
+// Article
+
+article {
+  padding: 0 0 24px 0;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 24px;
+  a {
+    color: #666;
+    padding-bottom: 1px;
+    border-bottom: 1px dotted $cold-grey;
+  }
+}

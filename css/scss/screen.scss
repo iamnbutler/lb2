@@ -25,20 +25,11 @@ body {
   height: 100%;
 }
 
+// Wrappers
+@import '_wrappers.scss';
+
 // Sidebar
 @import '_sidebar.scss';
-
-
-// Wrapper
-
-.wrapper {
-  width: 980px;
-  left: 50%;
-  margin-left: -490px;
-  position: relative;
-  top: 0;
-  z-index: 1;
-}
 
 .body-frame {
   position: absolute;
@@ -54,7 +45,7 @@ body {
   }
 }
 
-.header {
+.main-header {
   height: 64px;
   top: 0;
   position: fixed;
@@ -130,13 +121,13 @@ body {
 // Stage
 
 .stage {
+  margin-top: 64px;
   padding-top: 32px;
   min-height: 80%;
   padding-bottom: 60px;
 }
 
 .masthead {
-  margin-top: 64px;
   padding: 160px 0;
   background: #33393d url(https://dl.dropboxusercontent.com/u/68882376/img/masthead-sample.jpg) center;
   .logotext {
@@ -149,3 +140,4 @@ body {
 }
 
 @import '_module.scss';
+@import '_examples.scss';

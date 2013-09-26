@@ -2,7 +2,7 @@
 %html
   %head
     %title
-      Lookbook
+      Lookbook 2.0 Typography Tester
 
     %meta{'charset'=> 'UTF-8'}
     %meta{'http-equiv' => 'X-UA-Compatible', 'content' => 'IE=edge,chrome=1'}
@@ -11,9 +11,33 @@
 
     <link rel="stylesheet" href="../css/screen.css">
 %body
-  %h1
-    Lookbook
-  %h2
-    Second Level Header
-  %p
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, explicabo sit architecto rerum culpa nesciunt assumenda aspernatur provident cupiditate ex. Ratione, deserunt, temporibus, voluptatum, excepturi quam pariatur quas illum dolorum officia nulla perferendis esse. Animi, quidem blanditiis commodi dolore. Ipsam, debitis, quae aut odio quod fugiat consectetur corrupti necessitatibus earum.
+  .wrapper.w600
+    %h1
+      Lookbook 2.0 Typography Tester
+    %h2
+      Second Level Header
+    %p
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, explicabo <b>sit architecto</b> rerum culpa nesciunt assumenda aspernatur provident cupiditate ex. Ratione, deserunt, temporibus, voluptatum, excepturi <i>quam pariatur quas illum</i> dolorum officia nulla perferendis esse. Animi, quidem blanditiis commodi dolore. Ipsam, debitis, quae aut odio quod fugiat consectetur corrupti necessitatibus earum.
+
+    .article-wrap
+      %article
+        %h2
+          Article Block
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, iste, cupiditate omnis quibusdam deleniti impedit nam <a href="#">nihil</a> deserunt illum voluptatem minima.
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, obcaecati, aspernatur, odit doloribus expedita earum <a href="#">temporibus necessitatibus </a> soluta possimus est tempora incidunt dignissimos iusto quasi id quam cum dolore porro veniam at. Esse quaerat accusantium nobis harum officiis nam praesentium.
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, error eligendi blanditiis libero deserunt culpa cum illum fugiat distinctio repudiandae.
+        %h3
+          Third Level Header
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, obcaecati, aspernatur, odit doloribus expedita earum temporibus necessitatibus soluta possimus est tempora incidunt dignissimos iusto quasi id quam cum dolore porro veniam at. Esse quaerat accusantium nobis harum officiis nam praesentium.
+        %p
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, error eligendi blanditiis libero deserunt culpa cum illum fugiat distinctio repudiandae.
+    %a.block.active{'href' => '#'}
+      Active Link
+    %a.block{'href' => '#'}
+      Basic Link
+    %a.block.inactive{'href' => '#'}
+      Inactive Link
