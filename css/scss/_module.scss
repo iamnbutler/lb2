@@ -4,11 +4,48 @@
 //
 //**************
 
+// ~~~~~~~~~
+// Sidebar Units
+// ~~~~~~~~~
+
+.sidebar {
+  float: left;
+  width: 300px;
+  margin-top: 70px;
+  margin-right: 40px;
+}
+
+.side-unit {
+  border: 1px solid #EFEFEF;
+  min-height: 40px;
+  border-top: 4px solid black;
+  padding: 12px 24px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+  margin-bottom: 32px;
+  display: block;
+  h3 {
+    font-size: 16px;
+    span {
+      font-size: 14px;
+      margin: 1px 0;
+      color: #999;
+    }
+  }
+  .read-more {
+    font-size: 14px;
+    padding: 8px 0;
+    display: block;
+  }
+}
+
+// ~~~~~~~~~
 // Look Grid
+// ~~~~~~~~~
 
 ul.look-grid {
-  padding: 12px 0;
   clear: both;
+  width: 640px;
+  float: left;
 }
 
 // Look Unit
@@ -16,7 +53,7 @@ ul.look-grid {
   width: 600px;
   position: relative;
   border: 1px solid #E5E5E5;
-  margin-bottom: 60px;
+  margin: 24px 0;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
 }
 
@@ -86,6 +123,27 @@ ul.look-grid {
     color: #666;
     a {
       color: #666;
+    }
+  }
+  .tags {
+    padding: 0 10px 12px 10px;
+    li {
+      cursor: pointer;
+      background-color: #F5F5F5;
+      padding: 8px 12px;
+      margin-right: 6px;
+      font-size: 14px;
+      color: #777;
+      max-width: 100px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+      transition: background-color 0.4s ease;
+      &:hover {
+        transition: background-color 0.4s ease;
+        background-color: #333;
+        color: white;
+      }
     }
   }
 }

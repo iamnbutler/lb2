@@ -57,10 +57,9 @@
           <a href="#" class="inactive">Inbox</a>
           <a href="#" class="inactive avatar"></a>
           <a href="#" class="inactive nav-search"></a>
-      .stage.wrapper.w980
-        %h2
-          Hot Looks <span>by hype &amp; newness</span>
-        %ul.look-grid.clearfix
+      .stage.wrapper.cf.w980
+        %ul.look-grid.cf
+          %h2   Hot Looks <span>by hype &amp; newness</span>
           .look-unit
             .look
               %a{'href' => "http://lookbook.nu/look/5394448-Love-Alphabet-Sweater-Fall-Zip-Up-Ankle-Boots"}
@@ -73,6 +72,11 @@
                 %a{'href' => "http://lookbook.nu/look/5403878-Brown-70s-Looking-Chunky-Heel-Boots-Drawstring"}   Neutral &amp; free
               %p.subhead
                 <a href="http://lookbook.nu/ellemay" class="lb-user">Elle-May L</a>, 19 Year Old Seaside Stroller from The Beach, Australia, Australia
+              %ul.tags
+                %li   #Neutral
+                %li   #Free
+                %li   #Indoor
+                %li   #TooLongTooLong
             %ul.comments
               %li
               %li 
@@ -152,7 +156,16 @@
               %li.social.tumblr
               %li.social.twitter
               %li.social.facebook.first
-    
+        .sidebar
+          .side-unit
+            %h3 LB Log <span>// 09.01.13</span>
+            %p   Fashion is not about money, fame or status. It's not about how many followers you have or your average amount of likes per post. It doesn't matter how many arbitrary awards you can rack up or how many parties, events or shows you can be invited to.
+            %a{'href' => '#', 'class' => 'read-more'}   Read More &rarr;
+          .side-unit
+            %h3 LB Log <span>// 09.01.13</span>
+            %p   Fashion is not about money, fame or status. It's not about how many followers you have or your average amount of likes per post. It doesn't matter how many arbitrary awards you can rack up or how many parties, events or shows you can be invited to.
+            %a{'href' => '#', 'class' => 'read-more'}   Read More &rarr;
+
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <script src="js/scripts.js"></script>
