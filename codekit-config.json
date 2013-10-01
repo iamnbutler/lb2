@@ -2,6 +2,22 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8326",
   "files" : {
+    "\/demo\/typography.haml" : {
+      "inputAbbreviatedPath" : "\/demo\/typography.haml",
+      "outputAbbreviatedPath" : "\/demo\/typography.html",
+      "outputPathIsSetByUser" : 0,
+      "escapeHTMLCharacters" : 0,
+      "useUnixNewlines" : 0,
+      "useCDATA" : 0,
+      "ignore" : 0,
+      "noEscapeInAttributes" : 0,
+      "outputFormat" : 2,
+      "useDoubleQuotes" : 0,
+      "ignoreWasSetByUser" : 0,
+      "hidden" : 0,
+      "fileType" : 256,
+      "outputStyle" : 0
+    },
     "\/css\/scss\/screen.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -23,6 +39,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/img\/look\/3315809_systematyczny01sz.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/look\/3315809_systematyczny01sz.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/look\/3315809_systematyczny01sz.jpg",
+      "initialSize" : 96414,
+      "fileType" : 4096
+    },
     "\/css\/scss\/_module.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -35,14 +62,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/demo\/typography.html" : {
+    "\/img\/look\/3308354_sailorlook.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo\/typography.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/look\/3308354_sailorlook.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/look\/3308354_sailorlook.jpg",
+      "initialSize" : 99571,
+      "fileType" : 4096
+    },
+    "\/img\/look\/3315809_systematyczny01sz600.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/look\/3315809_systematyczny01sz600.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/look\/3315809_systematyczny01sz600.jpg",
+      "initialSize" : 59647,
+      "fileType" : 4096
     },
     "\/js\/scripts.js" : {
       "ignoreWasSetByUser" : 0,
@@ -55,16 +95,14 @@
       "outputAbbreviatedPath" : "\/js\/scripts-ck.js",
       "fileType" : 64
     },
-    "\/img\/look\/3308354_sailorlook.jpg" : {
+    "\/demo\/typography.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/look\/3308354_sailorlook.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/look\/3308354_sailorlook.jpg",
-      "initialSize" : 99571,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/demo\/typography.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/css\/scss\/_reset.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -77,6 +115,17 @@
       "outputAbbreviatedPath" : "\/css\/_reset.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/img\/look\/3315683_september_edits7.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/look\/3315683_september_edits7.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/look\/3315683_september_edits7.jpg",
+      "initialSize" : 187312,
+      "fileType" : 4096
     },
     "\/css\/scss\/print.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -101,6 +150,28 @@
       "initialSize" : 134969,
       "fileType" : 4096
     },
+    "\/img\/icons\/twitter.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/twitter.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/twitter.png",
+      "initialSize" : 1893,
+      "fileType" : 8192
+    },
+    "\/img\/look\/3315378_image.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/look\/3315378_image.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/look\/3315378_image.jpg",
+      "initialSize" : 92976,
+      "fileType" : 4096
+    },
     "\/css\/scss\/_examples.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -112,17 +183,6 @@
       "outputAbbreviatedPath" : "\/css\/_examples.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/js\/jquery-1.7.2.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery-1.7.2.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery-1.7.2.min-ck.js",
-      "fileType" : 64
     },
     "\/css\/scss\/_wrappers.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -136,6 +196,28 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/icons\/pinterest.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/pinterest.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/pinterest.png",
+      "initialSize" : 1424,
+      "fileType" : 8192
+    },
+    "\/js\/jquery-1.7.2.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery-1.7.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery-1.7.2.min-ck.js",
+      "fileType" : 64
+    },
     "\/js\/scripts-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -146,6 +228,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/scripts-ck-ck.js",
       "fileType" : 64
+    },
+    "\/img\/icons\/facebook.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/facebook.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/facebook.png",
+      "initialSize" : 1250,
+      "fileType" : 8192
     },
     "\/css\/scss\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -168,6 +261,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 32768
     },
+    "\/img\/icons-sb021260dc7.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons-sb021260dc7.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons-sb021260dc7.png",
+      "initialSize" : 1440,
+      "fileType" : 8192
+    },
     "\/css\/print.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -176,6 +280,17 @@
       "inputAbbreviatedPath" : "\/css\/print.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/img\/icons\/heart.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/heart.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/heart.png",
+      "initialSize" : 1245,
+      "fileType" : 8192
     },
     "\/css\/ie.css" : {
       "ignoreWasSetByUser" : 0,
@@ -207,18 +322,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/scss\/_typography.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/scss\/_typography.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 1,
-      "outputAbbreviatedPath" : "\/css\/_typography.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/index.haml" : {
       "inputAbbreviatedPath" : "\/index.haml",
       "outputAbbreviatedPath" : "\/index.html",
@@ -235,21 +338,28 @@
       "fileType" : 256,
       "outputStyle" : 0
     },
-    "\/demo\/typography.haml" : {
-      "inputAbbreviatedPath" : "\/demo\/typography.haml",
-      "outputAbbreviatedPath" : "\/demo\/typography.html",
-      "outputPathIsSetByUser" : 0,
-      "escapeHTMLCharacters" : 0,
-      "useUnixNewlines" : 0,
-      "useCDATA" : 0,
-      "ignore" : 0,
-      "noEscapeInAttributes" : 0,
-      "outputFormat" : 2,
-      "useDoubleQuotes" : 0,
+    "\/css\/scss\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
       "hidden" : 0,
-      "fileType" : 256,
-      "outputStyle" : 0
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/scss\/_typography.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_typography.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/img\/icons\/tumblr.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/icons\/tumblr.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/icons\/tumblr.png",
+      "initialSize" : 1223,
+      "fileType" : 8192
     }
   },
   "manualImportLinks" : [

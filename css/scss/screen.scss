@@ -19,6 +19,10 @@
 // Typography
 @import '_typography.scss';
 
+// Sprite
+@import "icons/*.png";
+@include all-icons-sprites;
+
 // Style
 body {
   width: 100%;
