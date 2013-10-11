@@ -9,7 +9,8 @@
     
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="">
     <link rel="stylesheet" href="css/screen.css">
   %body
@@ -49,15 +50,15 @@
       .main-header
         .left-side
           %a{'href' => '#', 'class' => 'inactive logo'}
-          <a href="#" class="menu menu-toggle inactive">Menu</a>
+          <a href="#" class="menu menu-toggle inactive">Home</a>
           <a href="#" class="arrow inactive"></a>
         .right-side
           <a href="#" class="inactive">Feed <span>3</span></a>
           <a href="#" class="inactive">News</a>
           <a href="#" class="inactive">Inbox</a>
           <a href="#" class="inactive avatar"></a>
-          <a href="#" class="inactive nav-search"></a>
       .stage.wrapper.cf.w980
+        .hero-unit
         %ul.look-grid.cf
           %h2   Hot Looks <span>by hype &amp; newness</span>
           .look-unit
@@ -160,11 +161,40 @@
           .side-unit
             %h3 LB Log <span>// 09.01.13</span>
             %p   Fashion is not about money, fame or status. It's not about how many followers you have or your average amount of likes per post. It doesn't matter how many arbitrary awards you can rack up or how many parties, events or shows you can be invited to.
-            %a{'href' => '#', 'class' => 'read-more'}   Read More &rarr;
+            %footer
+              %a{'href' => '#', 'class' => 'read-more'}   Read More &rarr;
           .side-unit
-            %h3 LB Log <span>// 09.01.13</span>
-            %p   Fashion is not about money, fame or status. It's not about how many followers you have or your average amount of likes per post. It doesn't matter how many arbitrary awards you can rack up or how many parties, events or shows you can be invited to.
-            %a{'href' => '#', 'class' => 'read-more'}   Read More &rarr;
+            .select-unit
+              %h3   Countries
+              %ul.select
+                %li   United States
+                %li   Argentina
+                %li   Australia
+                %li   Austria
+                %li   United States
+                %li   Argentina
+                %li   Australia
+                %li   Austria
+            .select-unit
+              %h3   Categories
+              %ul.select
+                %li   Cardigans
+            .select-unit
+              %h3   Brands
+              %ul.select
+                %li   Nasty Gal
+          .side-unit
+            %h3   Connect with LB
+            %ul
+              %li.social.pinterest
+              %li.social.tumblr
+              %li.social.twitter
+              %li.social.facebook
+          .side-unit
+            %h3   Lookbook TV
+            %ul
+              %li   LOOKBOOK x Levi's Revel Launch Party
+              %li   LB:TS - Episode 9: The Journey
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 

@@ -18,4 +18,9 @@ $(document).ready(function(){
     }
     return false;
   });
+
+  $('.select-unit').click(function(){
+    $('.select-unit ul').removeClass('select-active');
+    $(this).children('ul').addClass('select-active');
+  });
 });
