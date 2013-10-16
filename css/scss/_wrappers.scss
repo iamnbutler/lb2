@@ -9,12 +9,26 @@
 
 // Main Wrapper (980px)
 
-.wrapper.w980 {
-  @include wrapper(980px);
+.wrapper {
+  @include wrapper(960px);
 }
 
-// Narrow Wrapper
+// Tablet
 
-.wrapper.w600 {
-  @include wrapper(600px);
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+
+	.wrapper {
+	  @include wrapper(600px);
+	}
+
+}
+
+// Phone
+
+@media screen and (max-width: 680px) {
+
+	.wrapper {
+	  @include wrapper(100%);
+	}
+
 }
