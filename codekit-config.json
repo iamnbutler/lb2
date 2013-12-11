@@ -1,6 +1,6 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "8326",
+  "creatorBuild" : "8403",
   "files" : {
     "\/img\/icons-sb021260dc7.png" : {
       "ignoreWasSetByUser" : 0,
@@ -244,6 +244,18 @@
       "initialSize" : 1223,
       "fileType" : 8192
     },
+    "\/css\/scss\/_animation.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/scss\/_animation.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 1,
+      "outputAbbreviatedPath" : "\/css\/_animation.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/img\/icons\/facebook.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -460,6 +472,7 @@
       "trailing" : 1,
       "nonew" : 1,
       "es3" : 0,
+      "freeze" : true,
       "yui" : 0,
       "mootools" : 0,
       "proto" : 0,
@@ -495,6 +508,7 @@
       "unused" : 1,
       "debug" : 0,
       "bitwise" : 1,
+      "notypeof" : true,
       "white" : 0,
       "browser" : 1,
       "worker" : 0,
@@ -521,7 +535,6 @@
       "newcap" : 0,
       "sloppy" : 0,
       "closure" : 0,
-      "es5" : 0,
       "browser" : 1,
       "properties" : 0,
       "plusplus" : 0,

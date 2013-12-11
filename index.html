@@ -10,20 +10,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
     <link rel="icon" type="image/png" href="">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/screen.css">
   </head>
   <body>
+    <nav class="nav nav-mobile">
+      <ul class="sections">
+        <li class="home divider">
+          <a href="#" class="inactive current">Home</a>
+        </li>
+        <li class="explore">
+          <a href="#" class="inactive">Explore</a>
+        </li>
+        <li class="explore">
+          <a href="#" class="inactive">Looks</a>
+        </li>
+        <li class="explore">
+          <a href="#" class="inactive">Television</a>
+        </li>
+        <li class="explore">
+          <a href="#" class="inactive">Blog</a>
+        </li>
+        <li class="explore divider">
+          <a href="#" class="inactive">Forum</a>
+        </li>
+      </ul>
+      <ul class="secondary">
+        <li class="help">
+          <a href="#" class="inactive">Languages</a>
+        </li>
+        <li class="help">
+          <a href="#" class="inactive">Help</a>
+        </li>
+        <li class="help">
+          <a href="#" class="inactive">FAQs</a>
+        </li>
+        <li class="help">
+          <a href="#" class="inactive">Feedback</a>
+        </li>
+      </ul>
+      <ul class="footer">
+        <li class="help">
+          <a href="#" class="inactive">Widgets</a>
+        </li>
+        <li class="help">
+          <a href="#" class="inactive">Advertise</a>
+        </li>
+        <li class="help">
+          <a href="#" class="inactive">Legal</a>
+        </li>
+        <li class="help">
+          <a href="#" class="inactive">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
     <div class='body-frame'>
       <div class='main-header'>
         <div class='left-side'>
-          <a class='inactive logo' href='#'></a>
-          <a href="#" class="menu menu-toggle inactive">Home</a>
-          <a href="#" class="arrow inactive"></a>
+          <a href="#" class="menu menu-toggle inactive">
+            <i class="fa fa-fw fa-bars"></i>
+          </a>
+          <div class="search-wrapper">
+            <i class="fa fa-fw fa-search"></i><input type="text" class="search-input" placeholder="Search"/>
+          </div>
         </div>
+        <a class='inactive logo' href='#'>LOOKBOOK</a>
         <div class='right-side'>
-          <a href="#" class="inactive">Feed <span>3</span></a>
-          <a href="#" class="inactive">News</a>
-          <a href="#" class="inactive">Inbox</a>
+          <a href="#" class="inactive">
+            <i class="fa fa-fw fa-square-o"></i>
+            <span class="animated bounce">3</span>
+          </a>
+          <a href="#" class="inactive">
+            <i class="fa fa-fw fa-bell-o"></i>
+          </a>
+          <a href="#" class="inactive">
+            <i class="fa fa-fw fa-envelope-o"></i>
+          </a>
           <a href="#" class="inactive avatar"></a>
         </div>
       </div>

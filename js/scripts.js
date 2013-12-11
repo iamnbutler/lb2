@@ -4,6 +4,10 @@ $(document).ready(function(){
     return false;
   });
 
+  $('.menu-toggle').click(function(){
+    $('.body-frame').toggleClass('expanded');
+  });
+
   $('.hype-button').click(function(){
     if ($('.hypes').is('.hyped')) {
       $('.hypes').html('629').removeClass('hyped');

@@ -23,6 +23,12 @@
 @import "icons/*.png";
 @include all-icons-sprites;
 
+// Animation
+@import '_animation.scss';
+
+// Sizes
+$break-tablet: 1024px;
+
 // Style
 body {
   width: 100%;
@@ -55,24 +61,59 @@ body {
   width: 100%;
   background-color: white;
   z-index: 9;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.1);
+
+  // == SEARCH == //
+  
+  .search-wrapper {
+    padding: 0px 6px;
+    float: left;
+    .search-input {
+      outline: 0;
+      border: 0;
+      padding: 12px 6px;
+      font-size: 16px;
+      margin: 11px 0;
+    }
+
+    // Reset placeholder color
+
+    [placeholder]:focus::-webkit-input-placeholder {
+      opacity: 0;
+    }
+
+    ::-webkit-input-placeholder {
+       color: black;
+    }
+  }
+
+  // == == //
+
   .left-side {
     float: left;
   }
   .right-side {
     float: right;
     & > a {
-      font-size: 14px;
+      position: relative;
       text-transform: uppercase;
-      padding: 25px 12px;
+      padding: 22px 12px;
       display: block;
       float: left;
+      i {
+        font-size: 18px;
+      }
       span {
+        font-size: 12px;
+        position: absolute;
+        top: 13px;
+        right: 9px;
         margin-left: 4px;
-        padding: 2px 5px;
+        padding: 2px 4px;
         border-radius: 2px;
         background-color: #0CF;
         color: white;
-        font-weight: 300;
+        font-weight: bold;
       }
     }
     .avatar {
@@ -83,6 +124,7 @@ body {
       background-color: #EFEFEF;
       padding: 0;
       margin-right: 20px;
+      background-image: url(https://dl.dropboxusercontent.com/u/68882376/img/avatar-small.jpg);
     }
     .nav-search {
       padding: 0;
@@ -95,27 +137,22 @@ body {
     }
   }
   .logo {
-    float: left;
-    width: 64px;
-    height: 64px;
-    background-image: url(../img/lb2_logo_64_64.png);
-  }
-  .arrow {
-    width: 16px;
-    height: 64px;
-    float: left;
-    background: url(https://dl.dropboxusercontent.com/u/68882376/img/lb2-arrow.png) no-repeat center center;
-    -webkit-background-size: 16px 32px;
-    background-size: 16px 32px;
+    position: absolute;
+    left: 50%;
+    margin-left: -73px;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding: 18px 0;
   }
   .menu {
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
-    padding: 25px 12px;
+    padding: 23px 22px;
     display: block;
     float: left;
     &:hover {
-      color: #737373;
+      background-color: #F5F5F5;
     }
   }
 }
